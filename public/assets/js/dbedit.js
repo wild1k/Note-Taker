@@ -1,6 +1,7 @@
+
 const fs = require("fs");
 const util = require("util");
-
+const uuidv1 = require("uuid");
 const noteDatabase = "./db/db.json"
 
 // PROMISIFY
@@ -21,7 +22,7 @@ class DB {
     async writeJSON(newNoteData, currentNotes) {
         try {
             const { title, text } = newNoteData;
-            const newNote = { title, text, id }
+            const newNote = { title, text, id: uuidv1 }
             const combineNotes = [newNote, ...currentNotes]
             await writeFileAsync(noteDatabase, JSON.stringify(combineNotes))
         } catch (err) {
