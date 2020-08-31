@@ -14,8 +14,8 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## ScreenShot of working App
 
-[!Main page](public\assets\images\noteMImg.png)
-[!Notes page](public\assets\images\noteImg.png)
+![Main page](public\assets\images\noteMImg.png)
+![Notes page](public\assets\images\noteImg.png)
 
 ## Usage 
 This is a simple note/task taker app that is easy to use.
