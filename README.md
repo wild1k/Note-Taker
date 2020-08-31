@@ -14,7 +14,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 ## ScreenShot of working App
 
-![Main page](public\assets\images\noteMImg.png)
+![Main page](C:\Users\SMSU2\code\homework\Note-Taker\public\assets\images\noteMImg.png)
 ![Notes page](public\assets\images\noteImg.png)
 
 ## Usage 
