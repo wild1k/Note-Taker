@@ -1,9 +1,8 @@
-// DEPENDENCIES
 // =============================================================
 const express =require("express");
 const path = require("path")
 const router = express.Router();
-const DB = require("./dbedit.js");
+const DB = require("./storeNote.js");
 
 
 // GET CALLS

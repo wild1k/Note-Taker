@@ -1,4 +1,4 @@
-  
+
 // DEPENDENCIES
 // =============================================================
 const express = require("express");
@@ -7,7 +7,7 @@ const express = require("express");
 // SETS UP THE EXPRESS APP
 // =============================================================
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 
 
 // SETS UP THE EXPRESS APP TO HANDLE DATA PARSING
@@ -19,7 +19,7 @@ app.use(express.static('public'));
 
 // ROUTING
 // =============================================================
-const routes = require("./public/assets/js/routes");
+const routes = require('./public/assets/js/routes');
 app.use(routes);
 
 
