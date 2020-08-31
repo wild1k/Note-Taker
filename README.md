@@ -29,6 +29,6 @@ This is a simple note/task taker app that is easy to use.
 
 ## Links
 
-[Git Hub Repo]()
+[Git Hub Repo](https://github.com/wild1k/Note-Taker)
 [Deployed Working Application]()
 
