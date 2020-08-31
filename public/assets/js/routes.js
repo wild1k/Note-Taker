@@ -15,7 +15,7 @@ router.get('/api/notes', async (req, res) => {
     res.json(await DB.readJSON())
 });
 
-router.get("*", (req, res) => {
+router.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../index.html"));
 });
 
